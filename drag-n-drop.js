@@ -32,7 +32,7 @@ const allowDrop = event => {
 };
 
 document.querySelectorAll('.column').forEach(column => {
-    //adding callbacks for dragenter and dragleave dom events
+    //adding callbacks for dragenter and dragleave dom events for receiving column
     column.addEventListener('dragenter', dragEnter);
     column.addEventListener('dragleave', dragLeave);
 });
